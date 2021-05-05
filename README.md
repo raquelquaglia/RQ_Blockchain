@@ -25,8 +25,7 @@ Homework
 ![image](https://user-images.githubusercontent.com/75185700/117178284-805a4a80-ad97-11eb-99b5-49681c7c7643.png)
 Crypto Wallet Account is Created, Balance is zero.
 
-![image](https://user-images.githubusercontent.com/75185700/117178769-01194680-ad98-11eb-8060-1a8c8cb472cf.png)
-Crypto Wallet Account is been funded
+
 
 ## Step Two: Install Go Ethereum Tools
 
@@ -84,7 +83,8 @@ Navigate to your "Blockchain-Tools" folder.
 6.- In the URL box type: `http://127.0.0.1:8545`.  This points to the default RPC port on your local machine.
 7.- Finally, click `Save & Use Custom Node`. 
 
-    
+![image](https://user-images.githubusercontent.com/75185700/117178769-01194680-ad98-11eb-8060-1a8c8cb472cf.png)
+Crypto Wallet Account is been funded    
 
 
 ## Step Eight: After connecting to the custom network in MyCrypto, it can be tested by sending money between accounts.
@@ -100,20 +100,23 @@ Navigate to your "Blockchain-Tools" folder.
 ![image](https://user-images.githubusercontent.com/75185700/117200216-d7b8e480-adb0-11eb-9eff-db0e98b4e6ba.png)
 
 5.- In the `To Address` box, type the account address from Node2, then fill in an arbitrary amount of ETH:
-![transaction send](Images/transaction-send.png)
+![image](https://user-images.githubusercontent.com/75185700/117203965-4b5cf080-adb5-11eb-83a8-fc8ef4867e13.png)
 
 6.- Confirm the transaction by clicking "Send Transaction", and the "Send" button in the pop-up window.  
-![Send transaction](Images/send-transaction.gif)
+![image](https://user-images.githubusercontent.com/75185700/117204257-af7fb480-adb5-11eb-82be-afeb792539dd.png)
 
 7.- Click the `Check TX Status` when the green message pops up, confirm the logout:
-![check tx](Images/check-tx-status.png)
+![image](https://user-images.githubusercontent.com/75185700/117204314-c58d7500-adb5-11eb-96fd-88da5605dadd.png)
 
 8.- You should see the transaction go from `Pending` to `Successful` in around the same blocktime you set in the genesis.
 9.- You can click the `Check TX Status` button to update the status.
-![successful transaction](Images/transaction-status.png)
+![image](https://user-images.githubusercontent.com/75185700/117204490-f9689a80-adb5-11eb-8ab2-4215b0a3a437.png)
+
+Successful transaction!
+![image](https://user-images.githubusercontent.com/75185700/117204615-2157fe00-adb6-11eb-8b41-b9e74c12cb71.png)
 
 
-Congratulations, you successfully created your own private blockchain!
+# Congratulations, you successfully created your own private blockchain with PoA!
 
 
 
