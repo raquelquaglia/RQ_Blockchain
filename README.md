@@ -68,6 +68,9 @@ Navigate to your "Blockchain-Tools" folder.
         * ./geth --datadir node1 account new
        
         * ./geth --datadir node2 account new
+![image](https://user-images.githubusercontent.com/75185700/117207009-1a7eba80-adb9-11eb-9968-5520ba84a4c2.png)
+
+
  
 ## Step Five: Generate your genesis block.
 
@@ -84,6 +87,8 @@ Navigate to your "Blockchain-Tools" folder.
 6.- Complete the rest of the prompts, and when you are back at the main menu, choose the "Manage existing genesis" option.
 
 7.- Export genesis configurations. This will fail to create two of the files, but you only need `networkname.json`.
+![image](https://user-images.githubusercontent.com/75185700/117206764-dd1a2d00-adb8-11eb-9d8d-50901d97d228.png)
+![image](https://user-images.githubusercontent.com/75185700/117206794-e5726800-adb8-11eb-9cc4-81add6c00c7c.png)
 
 
 ## Step Six: Initialize the nodes with the genesis' json file.
@@ -91,8 +96,12 @@ Navigate to your "Blockchain-Tools" folder.
 1.- Using `geth`, initialize each node with the new `networkname.json`.
 
  ./geth --datadir node1 init networkname.json
+ ![image](https://user-images.githubusercontent.com/75185700/117206682-c378e580-adb8-11eb-8105-92005d816479.png)
+
  
  ./geth --datadir node2 init networkname.json
+ ![image](https://user-images.githubusercontent.com/75185700/117206652-b956e700-adb8-11eb-950e-b610ac8b7761.png)
+
  
 ### Now the nodes can be used to begin mining blocks.
 
@@ -103,6 +112,11 @@ Navigate to your "Blockchain-Tools" folder.
 ./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 
     * **NOTE:** Type your password and hit enter - even if you can't see it visually!
+    * 
+![image](https://user-images.githubusercontent.com/75185700/117207308-70ebf900-adb9-11eb-85f4-751ca74c84d4.png)
+
+![image](https://user-images.githubusercontent.com/75185700/117207281-6a5d8180-adb9-11eb-94d7-d4be2e22abd8.png)
+
 
 ###    Your private PoA blockchain should now be running!
 
