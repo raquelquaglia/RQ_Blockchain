@@ -138,9 +138,6 @@ Navigate to your "Blockchain-Tools" folder.
 
 7.- Finally, click `Save & Use Custom Node`. 
 
-![image](https://user-images.githubusercontent.com/75185700/117178769-01194680-ad98-11eb-8060-1a8c8cb472cf.png)
-Crypto Wallet Account is been funded    
-
 
 ## Step Eight: After connecting to the custom network in MyCrypto, it can be tested by sending money between accounts.
 
@@ -154,6 +151,9 @@ Crypto Wallet Account is been funded
 
 4.- This is the balance that was pre-funded for this account in the genesis configuration; however, these millions of ETH tokens are just for testing purposes.   
 ![image](https://user-images.githubusercontent.com/75185700/117200216-d7b8e480-adb0-11eb-9eff-db0e98b4e6ba.png)
+
+![image](https://user-images.githubusercontent.com/75185700/117178769-01194680-ad98-11eb-8060-1a8c8cb472cf.png)
+Crypto Wallet Account is been funded  
 
 6.- In the `To Address` box, type the account address from Node2, then fill in an arbitrary amount of ETH:
 ![image](https://user-images.githubusercontent.com/75185700/117203965-4b5cf080-adb5-11eb-83a8-fc8ef4867e13.png)
